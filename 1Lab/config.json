@@ -1,0 +1,28 @@
+{
+  "student": "Заречкин Артём",
+  "group": "Б24-507",
+  "variant": 14,
+  "function": "Styblinski-Tang",
+  "d": 7,
+  "bounds": [
+    -5,
+    5
+  ],
+  "population_size": 50,
+  "population_states": 100,
+  "evaluation_budget": 5000,
+  "initialization": "uniform",
+  "selection": "tournament",
+  "tournament_size": 3,
+  "crossover": "arithmetic",
+  "crossover_rate": 0.8,
+  "mutation": "gaussian_per_individual",
+  "mutation_rate": 0.2,
+  "mutation_sigma": 0.5,
+  "comparison_mutation_sigma": 0.2,
+  "boundary_handling": "clipping",
+  "elitism_count": 1,
+  "stopping_criterion": "evaluation_budget",
+  "runs": 20,
+  "base_seed": 42
+}
