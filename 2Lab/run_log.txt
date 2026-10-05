@@ -1,0 +1,209 @@
+penalty_bit: 20 запусков выполнено
+repair_bit: 20 запусков выполнено
+repair_swap: 20 запусков выполнено
+random_feasible: 20 запусков выполнено
+{
+  "summary": [
+    {
+      "method": "penalty_bit",
+      "runs": 20,
+      "best": 30,
+      "mean": 29.65,
+      "median": 30.0,
+      "std": 0.8750939799154206,
+      "worst": 27,
+      "optimal_runs": 17,
+      "feasible_fraction_mean": 0.4934875,
+      "mean_seconds": 0.0665514885000448,
+      "evaluations_per_run": 8000
+    },
+    {
+      "method": "repair_bit",
+      "runs": 20,
+      "best": 30,
+      "mean": 30,
+      "median": 30.0,
+      "std": 0.0,
+      "worst": 30,
+      "optimal_runs": 20,
+      "feasible_fraction_mean": 1.0,
+      "mean_seconds": 0.10186325069998929,
+      "evaluations_per_run": 8000
+    },
+    {
+      "method": "repair_swap",
+      "runs": 20,
+      "best": 30,
+      "mean": 30,
+      "median": 30.0,
+      "std": 0.0,
+      "worst": 30,
+      "optimal_runs": 20,
+      "feasible_fraction_mean": 1.0,
+      "mean_seconds": 0.11515922960002171,
+      "evaluations_per_run": 8000
+    },
+    {
+      "method": "random_feasible",
+      "runs": 20,
+      "best": 29,
+      "mean": 27.75,
+      "median": 28.0,
+      "std": 0.6386663736585051,
+      "worst": 27,
+      "optimal_runs": 0,
+      "feasible_fraction_mean": 1.0,
+      "mean_seconds": 0.02910724465000385,
+      "evaluations_per_run": 8000
+    }
+  ],
+  "best": {
+    "method": "penalty_bit",
+    "seed": 42,
+    "coverage": 30,
+    "coverage_percent": 75.0,
+    "posts_count": 5,
+    "posts": "6 10 17 33 40",
+    "mask": 554050847264,
+    "evaluations": 8000,
+    "feasible_evaluations": 4081,
+    "feasible_fraction": 0.510125,
+    "seconds": 0.0655166100000315,
+    "selected_vertices": [
+      6,
+      10,
+      17,
+      33,
+      40
+    ],
+    "covered_vertices": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      24,
+      25,
+      27,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      38,
+      39,
+      40
+    ],
+    "uncovered_vertices": [
+      4,
+      12,
+      19,
+      22,
+      23,
+      26,
+      28,
+      35,
+      36,
+      37
+    ],
+    "per_post": [
+      {
+        "post": 6,
+        "covers": [
+          5,
+          6,
+          7,
+          29
+        ]
+      },
+      {
+        "post": 10,
+        "covers": [
+          9,
+          10,
+          11,
+          15,
+          21,
+          38
+        ]
+      },
+      {
+        "post": 17,
+        "covers": [
+          8,
+          16,
+          17,
+          18,
+          24,
+          39
+        ]
+      },
+      {
+        "post": 33,
+        "covers": [
+          3,
+          13,
+          25,
+          27,
+          31,
+          32,
+          33,
+          34,
+          39
+        ]
+      },
+      {
+        "post": 40,
+        "covers": [
+          1,
+          2,
+          14,
+          20,
+          30,
+          39,
+          40
+        ]
+      }
+    ]
+  },
+  "exact": {
+    "coverage": 30,
+    "mask": 554050847264,
+    "posts": [
+      6,
+      10,
+      17,
+      33,
+      40
+    ],
+    "evaluations": 658008,
+    "seconds": 0.16408427200030928,
+    "reason": "Покрытие монотонно: любое множество мощности меньше K можно дополнить до K"
+  },
+  "greedy": {
+    "coverage": 30,
+    "mask": 554050847264,
+    "posts": [
+      6,
+      10,
+      17,
+      33,
+      40
+    ],
+    "evaluations": 190
+  }
+}

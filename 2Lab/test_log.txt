@@ -1,0 +1,11 @@
+test_budget_feasibility_monotonicity_and_seed (test_lab2.Lab2Tests.test_budget_feasibility_monotonicity_and_seed) ... ok
+test_coverage_independent_set_reference (test_lab2.Lab2Tests.test_coverage_independent_set_reference) ... ok
+test_dataset_connected_and_reproducible (test_lab2.Lab2Tests.test_dataset_connected_and_reproducible) ... ok
+test_exact_on_small_known_graph (test_lab2.Lab2Tests.test_exact_on_small_known_graph) ... ok
+test_operators_and_repair (test_lab2.Lab2Tests.test_operators_and_repair) ... ok
+test_penalty_dominates_infeasible_candidates (test_lab2.Lab2Tests.test_penalty_dominates_infeasible_candidates) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.038s
+
+OK
