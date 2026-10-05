@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-05",
+  "variant": 14,
+  "vertices": 40,
+  "edges": 80,
+  "methods": 4,
+  "runs_per_method": 20,
+  "total_runs": 80,
+  "evaluations_per_run": 8000,
+  "total_evaluations": 640000,
+  "optimal_coverage": 30,
+  "all_final_solutions_feasible": true,
+  "all_result_values_and_histories_reproduced": true,
+  "code_comment_tokens": 0,
+  "notebook_executed_cells": 8,
+  "embedded_figures": 4,
+  "tests_passed": 6,
+  "report_pages": 12,
+  "visual_review_all_pages": true
+}
